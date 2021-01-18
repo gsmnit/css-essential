@@ -11,52 +11,63 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 
 /* Global styles
 ------------------------------------*/
+
 body {
-  color: #343434;
+    color: #343434;
 }
+
 img {
-  width: 300px;
+    width: 300px;
 }
+
 a {
-  color: #FFE66D;
+    color: #FFE66D;
+    text-decoration: underline;
 }
+
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 
 /* Profile
 ------------------------------------*/
+
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+    background: #2F3061;
+    color: #F7FFF7;
 }
 
 
 /* Projects
 ------------------------------------*/
+
 .projects {
-  background: #F7FFF7;
+    background: #F7FFF7;
 }
+
 .projects a {
-  color: #2F3061;
+    color: #2F3061;
 }
+
 .projects .btn {
-  color: #F7FFF7;
-  background: #2F3061;
-  text-decoration: none;
-  padding: 8px;
-  border-radius: 4px;
+    color: #F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
 }
+
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+    background: rgba(184, 181, 46, 1);
 }
 
 
 /* Work Experience
 ------------------------------------*/
+
 .work-experience {
-  background: #A1C6D7;
+    background: #A1C6D7;
 }
 
 
@@ -64,10 +75,10 @@ header {
 ------------------------------------*/
 
 
-
 /* Contact Info
 ------------------------------------*/
+
 footer {
-  background: #343434;
-  color: #F7FFF7;
+    background: #343434;
+    color: #F7FFF7;
 }
