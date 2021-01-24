@@ -12,6 +12,12 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 /* Global styles
 ------------------------------------*/
 
+@counter-style circled-alpha {
+    system: fixed;
+    symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+    suffix: " ";
+}
+
 body {
     color: #343434;
 }
@@ -54,6 +60,10 @@ header {
 ------------------------------------*/
 
 footer {
-    background: #343434;
+    background: #b0c764;
     color: #F7FFF7;
+}
+
+footer ul li {
+    list-style: circled-alpha;
 }
