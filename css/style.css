@@ -22,6 +22,7 @@ body {
     color: #343434;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -37,9 +38,15 @@ a:hover {
     color: orange;
 }
 
+h1,
+h2 {
+    font-family: 'Caveat', cursive;
+}
+
 .content-wrap {
     width: 800px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 
@@ -57,6 +64,10 @@ header {
 
 .projects {
     background: #F7FFF7;
+}
+
+.projects a {
+    color: #2F3061;
 }
 
 .projects .btn {
@@ -77,6 +88,13 @@ header {
 
 .work-experience {
     background: #A1C6D7;
+    margin-top: 30px;
+}
+
+.exp {
+    display: inline;
+    margin-left: 10px;
+    /*margin-top:px; */
 }
 
 
